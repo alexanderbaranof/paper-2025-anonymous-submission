@@ -7,7 +7,7 @@ from transformers import pipeline
 
 # Configs
 
-PROJECT_PATH = "/home/alex/paper-2025-anonymous-submission/"
+PROJECT_PATH = "/home/ambaranov/paper-2025-anonymous-submission"
 TARGET_FILE = "wordplay_detection_mistral_nemo_predictions.json"
 TARGET_FILE_PATH = os.path.join(PROJECT_PATH, f"Data/predictions/{TARGET_FILE}")
 MODEL_PATH = "/home/ambaranov/paper-2024/LLM predict/Mistral/Mistral-Nemo-Instruct-2407"
