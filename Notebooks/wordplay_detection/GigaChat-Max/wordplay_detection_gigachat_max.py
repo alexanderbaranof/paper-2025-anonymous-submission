@@ -79,7 +79,9 @@ llm = GigaChat(
     credentials=token,
     verify_ssl_certs=False,
     model="GigaChat-Max",
-    profanity_check=False
+    profanity_check=False,
+    max_tokens=128,
+    temperature=0.1
 )
 
 df_result["gigachat_max_pred"] = df_result.progress_apply(predict, axis=1)
