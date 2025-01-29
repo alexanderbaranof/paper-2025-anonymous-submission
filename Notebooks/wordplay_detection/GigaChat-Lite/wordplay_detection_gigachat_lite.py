@@ -17,7 +17,7 @@ MODEL_PATH = "/home/ambaranov/GigaChat-20B-A3B-instruct"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, trust_remote_code=True, torch_dtype=torch.bfloat16, device_map="auto")
-model.generation_config = GenerationConfig.from_pretrained(MODEL_PATH)
+model.generation_config = GenerationConfig.from_pretrained("/home/ambaranov/paper-2025-anonymous-submission/Notebooks/wordplay_detection/GigaChat-Lite")
 
 # Load data
 

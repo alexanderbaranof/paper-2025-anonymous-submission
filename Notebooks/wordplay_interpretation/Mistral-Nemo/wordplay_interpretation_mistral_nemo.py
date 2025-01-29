@@ -17,7 +17,7 @@ MODEL_PATH = "/home/ambaranov/paper-2024/LLM predict/Mistral/Mistral-Nemo-Instru
 chatbot = pipeline(
     "text-generation",
     model=MODEL_PATH,
-    max_new_tokens=128,
+    max_new_tokens=2048,
     temperature=0.3,
     device="cuda"
 )
