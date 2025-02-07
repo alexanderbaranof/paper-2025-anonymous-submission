@@ -41,7 +41,7 @@ def predict(row):
 # Configs
 
 PROJECT_PATH = "/home/alex/paper-2025-anonymous-submission/"
-TARGET_FILE = "wordplay_detection_gigachat_max_predictions_extended.json"
+TARGET_FILE = "wordplay_detection_gigachat_max_predictions_extended_ria.json"
 TARGET_FILE_PATH = os.path.join(PROJECT_PATH, f"Data/predictions/{TARGET_FILE}")
 
 # Load token
@@ -53,7 +53,7 @@ token = configs["gigachat_token"]
 # Load data
 
 df = pd.read_json(
-    os.path.join(PROJECT_PATH, "Data/processed_data/dataset_wordplay_detection_propmts_extended.json"),
+    os.path.join(PROJECT_PATH, "Data/processed_data/ria_detection_extended.json"),
     orient="index"
 )
 

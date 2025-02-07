@@ -16,13 +16,13 @@ PROJECT_PATH = "/home/alex/paper-2025-anonymous-submission/"
 YANDEX_CLOUD_FOLDER = "b1gvds71t2fp1r39mft9"
 YANDEX_CLOUD_MODEL = "yandexgpt/latest"
 YANDEX_CLOUD_API_URL = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
-TARGET_FILE = "wordplay_detection_yandex_gpt4_predictions_extended.json"
+TARGET_FILE = "wordplay_detection_yandex_gpt4_predictions_extended_ria.json"
 TARGET_FILE_PATH = os.path.join(PROJECT_PATH, f"Data/predictions/{TARGET_FILE}")
 
 # Load data
 
 df = pd.read_json(
-    os.path.join(PROJECT_PATH, "Data/processed_data/dataset_wordplay_detection_propmts_extended.json"),
+    os.path.join(PROJECT_PATH, "Data/processed_data/ria_detection_extended.json"),
     orient="index"
 )
 
