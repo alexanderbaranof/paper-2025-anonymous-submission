@@ -4,8 +4,8 @@ This repository contains a dataset and code to reproduce the results of experime
 
 ## Content
 
-- [All Datasets](/Data/processed_data/)
-  - [KoWIT-24 dataset](/Data/processed_data/dataset.json)
+- [All Datasets](Data/processed_data/)
+  - [KoWIT-24 dataset](Data/processed_data/dataset.json)
   - [KoWIT-24 Dev dataset](Data/processed_data/dev_dataset.json)
   - [RIA Novosti dataset](Data/processed_data/ria_dataset.json)
 - Prompts
@@ -47,4 +47,4 @@ This repository contains a dataset and code to reproduce the results of experime
     - [GPT-4o](Notebooks/wordplay_interpretation_extended_prompt/GPT-4o)
 
 - [Automatic interpretation](Notebooks/automatic_evaluation_interpretations/evaluation_extended_prompt.ipynb)
-- [Raw LLM Predictions](Data/predictions)
+- [Raw LLM Predictions](Data/predictions/README.md)
