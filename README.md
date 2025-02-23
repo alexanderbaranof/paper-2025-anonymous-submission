@@ -8,7 +8,7 @@ This repository contains a dataset and code to reproduce the results of experime
   - [KoWIT-24 dataset](/Data/processed_data/dataset.json)
   - [KoWIT-24 Dev dataset](Data/processed_data/dev_dataset.json)
   - [RIA Novosti dataset](Data/processed_data/ria_dataset.json)
-- [Prompts]()
+- Prompts
   - KoWIT-24
     - [Wordplay detection](Data/processed_data/dataset_wordplay_detection_propmts.json)
     - [Wordplay detection (extended by instruction)](Data/processed_data/dataset_wordplay_detection_propmts_extended.json)
@@ -20,7 +20,7 @@ This repository contains a dataset and code to reproduce the results of experime
     - [Wordplay interpretation](Data/processed_data/ria_interpretation.json)
     - [Wordplay interpretation (extended by instruction)](Data/processed_data/ria_interpretation_extended.json)
 
-- [LLM Usage](Notebooks)
+- LLM Usage
   - [Wordplay detection](Notebooks/wordplay_detection)
     - [GigaChat Lite](Notebooks/wordplay_detection/GigaChat-Lite)
     - [GigaChat Max](Notebooks/wordplay_detection/GigaChat-Max)
