@@ -46,5 +46,5 @@ This repository contains a dataset and code to reproduce the results of experime
     - [Mistral](Notebooks/wordplay_interpretation_extended_prompt/Mistral-Nemo)
     - [GPT-4o](Notebooks/wordplay_interpretation_extended_prompt/GPT-4o)
 
-- [Automatic interpretation](Notebooks/automatic_evaluation_interpretations/evaluation_extended_prompt.ipynb)
+- [Automatic interpretation evaluation](Notebooks/automatic_evaluation_interpretations/evaluation_extended_prompt.ipynb)
 - [Raw LLM Predictions](Data/predictions/README.md)
